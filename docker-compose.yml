@@ -36,8 +36,8 @@ services:
             WORDPRESS_DB_USER: website 
             WORDPRESS_DB_PASSWORD: password # @sven, plz change
             WORDPRESS_DB_NAME: website # @sven, plz change
-            VIRTUAL_HOST: website.com
-            LETSENCRYPT_HOST: website.com
+            VIRTUAL_HOST: website.com # @sven, plz change
+            LETSENCRYPT_HOST: website.com # @sven, plz change
         depends_on:
             - website-db
         restart: unless-stopped
